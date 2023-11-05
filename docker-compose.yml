@@ -1,0 +1,14 @@
+version: '3'
+services:
+  node:
+    image: node
+    container_name: pc-part-picker
+    volumes:
+      - type: bind
+        source: "~/code/pc-part-picker"
+        target: /data
+    ports:
+      - "3000:3000"
+    tty: true
+
+
