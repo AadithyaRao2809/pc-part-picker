@@ -1,8 +1,8 @@
 version: '3'
 services:
-  node:
+  next:
     image: node
-    container_name: pc-part-picker
+    container_name: pc-next
     volumes:
       - type: bind
         source: "~/code/pc-part-picker"
